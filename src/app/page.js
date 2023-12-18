@@ -21,7 +21,7 @@ export default async function HomePage() {
 
   return (
     <div>
-      <h1>Users</h1>
+      <h1>Users v2</h1>
       <ul>
         {users.map(user => (
           <li key={user._id}>{user.name}</li>
